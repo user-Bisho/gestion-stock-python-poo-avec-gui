@@ -45,6 +45,7 @@ def trouver_produit(reference):
 
 
 def ajouter_produit():
+   
     nom = entree_nom.get().strip()
     reference = entree_ref.get().strip()
     quantite = entree_qte.get().strip()
@@ -371,6 +372,7 @@ titre = tk.Label(
     font=("Arial", 18, "bold")
 )
 titre.pack(pady=12)
+ #joker was here
 
 cadre_formulaire = tk.LabelFrame(root, text="Produit", padx=12, pady=10)
 cadre_formulaire.pack(fill=tk.X, padx=20)
