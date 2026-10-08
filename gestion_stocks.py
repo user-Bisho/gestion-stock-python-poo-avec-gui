@@ -361,6 +361,8 @@ def stock_faible():
     messagebox.showwarning("Alerte stock faible", texte)
 
 
+
+#getting close to the bs part
 root = tk.Tk()
 root.title("Gestion des stocks")
 root.geometry("900x610")
