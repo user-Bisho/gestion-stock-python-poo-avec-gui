@@ -43,7 +43,7 @@ def trouver_produit(reference):
             return produit
     return None
 
-
+#add
 def ajouter_produit():
    
     nom = entree_nom.get().strip()
