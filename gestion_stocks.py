@@ -12,6 +12,7 @@ def charger_fichier(nom_fichier):
         with open(nom_fichier, "r", encoding="utf-8") as fichier:
             return json.load(fichier)
     except (FileNotFoundError, json.JSONDecodeError):
+        
         return []
 
 
